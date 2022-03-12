@@ -1,0 +1,118 @@
+/*  sets the body color to fill whole page */ 
+body {
+  text-align: center;
+  margin: 0;
+  background-color:  #56d2b9;
+}
+/* chnages hello thinkful text to white as well as change font */
+header > h1{
+  font-size: 50px;
+  color: floralwhite;
+ font-family: broadway;
+}
+/* sets header color borders and changes the color of software developer text*/
+body > header {
+  margin: 0;
+  font-size: 20px;
+  color: #9cd8f2;
+   text-align: center;
+    padding: 30px;
+      border: 3px solid;
+     border-color: #23769a;
+    background-color: #9192b1;
+  }
+/* images size and border styling*/
+main > div > img  {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  border: 4px solid;
+  border-color:#23769a;
+  margin: 20px;
+}
+/* sets color and centers text for unordered list*/.
+ div {
+    background-color: #56d2b9;
+    padding: 10px;
+    text-align: center;
+  }
+/* creates a button for link*/
+a {
+  font-size: 25px;
+  background: #f4e19d;
+  display: inline-block;
+border: 3px solid black;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+/* psuedocode for link colors*/
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: yellow;}
+/* thickens the horizontal rule*/
+hr { 
+ background-color: black;
+  height:4px;
+  }
+/* controls the sections between the two Hor lines  as well as centering the text*/
+main > header {
+text-align: center;
+background-color: #9192b1;
+}
+main > header > h2 {
+  font-size:35px;
+  color: #23769a;
+  background-color: #56d2b9;
+  border-left: 0px;
+  border: 6px solid;
+  ;
+}
+/* targets where im from */ 
+main > header > h3{
+  text-align: center;
+  color: #9cd8f2;
+  font-size: 25px;
+  font-family: broadway;
+}
+li {
+/* targets list styling*/
+  font-size: 25px;
+  color: #23769a;
+  text-align:left;
+  list-style-position: inside;
+  font-weight: 700;
+  }
+div > h3 {/* targets  the title of the unordered list*/
+  font-size: 25px;
+  font-family: cursive;
+  }
+/* targets the paragraph sectio*/
+p {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+}
+/* styles the the bootom of the page  */
+footer > h3 {
+ border: 4px solid black;
+  color: #f4e19d;
+  Font-size: 40px;
+  text-align: center;
+  font-family: century;
+  background: #23769a;
+  margin:  0;
+}
+/*  .align used to center lists */
+.align-center { 
+  text-align: center;
+}
+/* section container used to change the color*/
+section {
+  background-color: #9192b1;
+}
+/* about me */
+section > h3 {
+  font-family: cursive;
+}
